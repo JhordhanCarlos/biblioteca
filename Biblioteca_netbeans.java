@@ -105,7 +105,7 @@ public class Biblioteca_netbeans  extends Alugar{
         Date date = new Date();
         System.out.println(date.getHours());
         
-        if(date.getHours() > 8 && date.getHours() < 23){
+        if(date.getHours() > 8 && date.getHours() < 20){
             int id ; 
             System.out.println("Bem vindo(a) a Bilioteca \n \n");
             Scanner ler = new Scanner (System.in); 
